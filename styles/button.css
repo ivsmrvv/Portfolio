@@ -1,0 +1,135 @@
+.nav__button {
+  position: absolute;
+  right: 3px;
+  top: 12px;
+  display: none;
+  width: 63px;
+  height: 63px;
+  background: none;
+  border: none;
+  padding: 0;
+  background-image: url("../resourses/nav__button.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  z-index: 101;
+}
+
+@media (max-width: 1199px) {
+  .nav__button {
+    display: block;
+  }
+}
+
+.burger__btn_open {
+  top: 21px;
+  right: 21px;
+  width: 34px;
+  height: 34px;
+  background-image: url("../resourses/close__button.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.projects__button {
+  margin-top: 80px;
+  display: block;
+  width: 582px;
+  background-color: #1bff07;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  line-height: 153px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (hover: hover) {
+  .projects__button:hover {
+    color: #1bff07;
+    background-color: #000;
+    border: 1px solid #1bff07;
+  }
+}
+
+@media (hover: none) {
+  .projects__button:active {
+    color: #1bff07;
+    background-color: #000;
+    border: 1px solid #1bff07;
+  }
+}
+
+@media (max-width: 1199px) {
+  .projects__button {
+    margin-top: 64px;
+    width: 460px;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 124px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__button {
+    margin-top: 60px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+  }
+}
+
+.contacts__button {
+  margin-top: 60px;
+  border: none;
+  background: none;
+  padding: 0;
+  width: 450px;
+  background-color: #1bff07;
+  color: #000;
+  border-radius: 10px;
+  line-height: 70px;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .contacts__button:hover {
+    color: #1bff07;
+    background-color: #000;
+    border: 1px solid #1bff07;
+  }
+}
+
+@media (hover: none) {
+  .contacts__button:active {
+    color: #1bff07;
+    background-color: #000;
+    border: 1px solid #1bff07;
+  }
+}
+
+@media (max-width: 1199px) {
+  .contacts__button {
+    margin-top: 40px;
+    width: 304px;
+    border-radius: 7px;
+    line-height: 47px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__button {
+    width: 100%;
+    border-radius: 6px;
+    line-height: 43px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,141 @@
+.contacts {
+  height: 717px;
+  background-color: #191c19;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+@media (max-width: 1199px) {
+  .contacts {
+    height: 484px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    height: 428px;
+    border-radius: 19px;
+  }
+}
+
+.contacts__img {
+  background-image: url("../resourses/Contacts__img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 100%;
+  border-bottom-right-radius: 30px;
+}
+
+@media (max-width: 1199px) {
+  .contacts__img {
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__img {
+    background-image: none;
+  }
+}
+
+.contacts__wrapper {
+  padding: 100px 0;
+}
+
+@media (max-width: 1199px) {
+  .contacts__wrapper {
+    padding: 50px 0 86px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__wrapper {
+    padding: 50px 0;
+  }
+}
+
+.contacts__title {
+  margin-bottom: 60px;
+  display: block;
+  width: 553px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .contacts__title {
+    margin-bottom: 40px;
+    width: 373px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__title {
+    width: 310px;
+    font-size: 35px;
+    line-height: 37px;
+  }
+}
+
+.contacts__form {
+  width: 567px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media (max-width: 1199px) {
+  .contacts__form {
+    width: 383px;
+    row-gap: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__form {
+    width: 100%;
+    row-gap: 15px;
+  }
+}
+
+.contacts__input {
+  border: none;
+  background-color: #3b3d3b;
+  border-radius: 1000px;
+  padding: 0 40px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .contacts__input {
+    border-radius: 675px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 41px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__input {
+    border-radius: 622px;
+    padding: 0 21px;
+    font-size: 15px;
+    line-height: 38px;
+  }
+}
+
+.contacts__input:focus {
+  outline: none;
+}

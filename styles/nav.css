@@ -1,0 +1,39 @@
+.nav__list {
+  display: flex;
+}
+
+@media (max-width: 1199px) {
+  .nav__list {
+    display: none;
+  }
+}
+
+.nav__list_inline {
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.nav__list_column {
+  margin-left: 17px;
+  margin-bottom: 91px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.nav__link:hover {
+  color: #1bff07;
+}
+
+.nav__link_size-m {
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
